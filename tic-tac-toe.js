@@ -21,26 +21,6 @@ function makeShape2() {
   canvas.appendChild(circle)
 }
 
-function makeShape5() {
-  var circle = document.createElementNS(namespace, "circle")
-  circle.setAttribute("cx", 210)
-  circle.setAttribute("cy", 210)
-  circle.setAttribute("r", 30)
-  circle.setAttribute("fill","red")
-  var canvas = document.getElementById("game-board")
-  canvas.appendChild(circle)
-}
-
-function makeShape9() {
-  var circle = document.createElementNS(namespace, "circle")
-  circle.setAttribute("cx", 320)
-  circle.setAttribute("cy", 320)
-  circle.setAttribute("r", 30)
-  circle.setAttribute("fill","red")
-  var canvas = document.getElementById("game-board")
-  canvas.appendChild(circle)
-}
-
 function makeShape3() {
   var circle = document.createElementNS(namespace, "circle")
   circle.setAttribute("cx", 320)
@@ -57,6 +37,16 @@ function makeShape4() {
   circle.setAttribute("cy", 210)
   circle.setAttribute("r", 30)
   circle.setAttribute("fill","blue")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(circle)
+}
+
+function makeShape5() {
+  var circle = document.createElementNS(namespace, "circle")
+  circle.setAttribute("cx", 210)
+  circle.setAttribute("cy", 210)
+  circle.setAttribute("r", 30)
+  circle.setAttribute("fill","red")
   var canvas = document.getElementById("game-board")
   canvas.appendChild(circle)
 }
@@ -87,6 +77,16 @@ function makeShape8() {
   circle.setAttribute("cy", 320)
   circle.setAttribute("r", 30)
   circle.setAttribute("fill","blue")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(circle)
+}
+
+function makeShape9() {
+  var circle = document.createElementNS(namespace, "circle")
+  circle.setAttribute("cx", 320)
+  circle.setAttribute("cy", 320)
+  circle.setAttribute("r", 30)
+  circle.setAttribute("fill","red")
   var canvas = document.getElementById("game-board")
   canvas.appendChild(circle)
 }
